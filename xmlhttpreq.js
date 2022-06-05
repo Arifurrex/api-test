@@ -27,13 +27,25 @@ btn.addEventListener('click', function() {
     };
     const postData = () => {
         xml("POST", "https://jsonplaceholder.typicode.com/posts", {
-            title: 'foo',
-            body: 'bar',
+            title: 'fooma',
+            body: 'barma',
             userId: 1,
          });
     };
+    const putData = () => {
+        xml("PUT", "https://jsonplaceholder.typicode.com/posts/1", {
+            title: 'foomaTA',
+            body: 'barmaTA',
+            userId: 1,
+        });
+    };
+    const deletetData = () => {
+        xml("DELETE", "https://jsonplaceholder.typicode.com/posts/1");
+    };
+    getData();
     postData();
-    // getData();
+    putData();
+    deletetData();
     
 });
 
