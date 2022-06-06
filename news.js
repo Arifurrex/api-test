@@ -15,7 +15,8 @@ const getdata = ()=>{
 const htmlRender = (response) => {
     titleRes = response.articles;
     titleRes.forEach((x,i) => {
-        details.insertAdjacentHTML('beforeend', `<p>author:${response.articles[i].author}</p> title:${response.articles[i].title}</p></br>`);
+        details.insertAdjacentHTML('beforeend', `<p>author:${response.articles[i].author}</p> title:${response.articles[i].title}</p>
+        </p> title:${response.articles[i].summary}</p></br>`);
     });
     
 }
