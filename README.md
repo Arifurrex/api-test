@@ -26,8 +26,8 @@ APIs, short for Application Programming Interfaces, সফ্টওয়্য�
 3. axios
 4. jquery
 
-#XMLHttpRequest 
-is one old request 
+# XMLHttpRequest 
+is one old request .
 
 ```console
 console.log(window)
