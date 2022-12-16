@@ -1,5 +1,5 @@
 # api-test
 
-console```
+```console
 console.log(window)
 ```
