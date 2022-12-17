@@ -35,6 +35,7 @@ console.log(window)
 ![Screenshot 2022-12-17 004140](https://user-images.githubusercontent.com/48369328/208167456-4ae0f5a6-f1e5-450d-9169-9e0959615e5b.png)
 
 
+```javascript
 const getData = function(){
    const xhr = new XMLHttpRequest();
    //i will get every property and method and event from creating new object of XMLHttpRequest
@@ -42,6 +43,7 @@ const getData = function(){
 }
 getData();
 
+```
 
 ![Screenshot 2022-12-17 115030](https://user-images.githubusercontent.com/48369328/208227578-1a1336ec-6568-4276-86d4-2d2aa5794eaa.png)
 
