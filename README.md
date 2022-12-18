@@ -338,3 +338,5 @@ const deleteData = function(){
 deleteData();
 
 ```
+
+![Screenshot 2022-12-18 210257](https://user-images.githubusercontent.com/48369328/208306697-0de3d448-71f5-4cfa-954f-64dbf1322ca6.png)
