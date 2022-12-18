@@ -78,3 +78,13 @@ xmlHttpRequest() object এর open() method call করব । open() method 2 
 
 [fake api link](https://jsonplaceholder.typicode.com/guide/)
 
+
+```javascript
+const getData = function(){
+   const xhr = new XMLHttpRequest();
+   xhr.open('GET','https://jsonplaceholder.typicode.com/posts/1')  
+}
+getData();
+
+```
+
