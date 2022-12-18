@@ -237,3 +237,42 @@ postData();
 
 
 ![Screenshot 2022-12-18 194550](https://user-images.githubusercontent.com/48369328/208301801-5b915eff-9a86-4658-aa7d-61130cb99d00.png)
+
+# কিভাবে update request করা হয় 
+```javascript 
+const makeRequest = function(method,url,data1){
+   const xhr = new XMLHttpRequest();
+   xhr.open(method,url);
+   xhr.setRequestHeader('Content-type','application/json');
+   xhr.onload = function(){
+      let data = xhr.response;
+      console.log(JSON.parse(data));
+   };
+   xhr.onerror = function(){
+      console.log('error is here');
+   }
+   xhr.send(JSON.stringify(data1));  
+}
+
+
+const getData = function(){
+   makeRequest('GET','https://jsonplaceholder.typicode.com/posts');
+}
+const postData = function(){
+   makeRequest('POST','https://jsonplaceholder.typicode.com/posts',{
+      title: 'foo',
+      body: 'bar',
+      userId: 1,
+   });
+}
+const updateData = function(){
+   makeRequest('PUT','https://jsonplaceholder.typicode.com/posts/1',{
+      id:1,
+      title: 'foota',
+      body: 'barto',
+      userId: 1,
+   });
+}
+
+updateData();
+```
