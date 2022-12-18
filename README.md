@@ -201,10 +201,10 @@ getData();
 # কিভাবে post request করা হয় 
 method হবে post 
 url হবে
-title body userid দিতে হবে 
-open() এবং send() function এর মাজে etRequestHeader('Content-type','application/json') দিতে হবে 
-data কে JSON.stringify(data1) করতে হবে 
-send(JSON.stringify(data1)) 
+1. title body userid দিতে হবে 
+2. open() এবং send() function এর মাজে etRequestHeader('Content-type','application/json') দিতে হবে 
+3. data কে JSON.stringify(data1) করতে হবে 
+4. send(JSON.stringify(data1)) 
 
 ```javascript
 const makeRequest = function(method,url,data1){
