@@ -203,6 +203,7 @@ getData();
 const makeRequest = function(method,url,data1){
    const xhr = new XMLHttpRequest();
    xhr.open(method,url);
+   xhr.setRequestHeader('Content-type','application/json');
    xhr.onload = function(){
       let data = xhr.response;
       console.log(JSON.parse(data));
@@ -219,9 +220,9 @@ const getData = function(){
 }
 const postData = function(){
    makeRequest('POST','https://jsonplaceholder.typicode.com/posts',{
-          title : 'arifur',
-          body:'bar',
-          userId:1
+      title: 'foo',
+      body: 'bar',
+      userId: 1,
    });
 }
 postData();
