@@ -100,3 +100,33 @@ const getData = function(){
 }
 getData();
 ```
+
+#step - 5 (newtwork e data show korbe)
+
+![Screenshot 2022-12-18 112131](https://user-images.githubusercontent.com/48369328/208282873-c5ffd48b-210a-447b-ad49-2963b83137e6.png)
+
+#step - 6 (console e data এ data show করার জন্যে onload event use করতে হবে  )
+
+```javascript
+
+const getData = function(){
+   const xhr = new XMLHttpRequest();
+   xhr.open('GET','https://jsonplaceholder.typicode.com/posts');
+   xhr.onload = function(){
+      let data = xhr.response;
+      console.log(data);
+   };
+   xhr.send();  
+}
+getData();
+
+```
+
+onload event এর মদ্যে data process করব । 
+data টা xhr.response property এর মদ্যে তকবে 
+data =xhr.response 
+console.log(data);
+এর ফলে data console এ show করবে 
+
+
+
