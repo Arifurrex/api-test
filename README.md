@@ -52,7 +52,7 @@ getData();
  2. property- response, responseType ,
  3. function -  open() ,send() ,setRequestHeader()
 
-#step - 1
+# step - 1
 
 ```javascript
 const getData = function(){
@@ -63,7 +63,7 @@ getData();
 
 
 ```
-#step - 2 open()
+# step - 2 open()
 
 ```javascript
 
@@ -101,11 +101,11 @@ const getData = function(){
 getData();
 ```
 
-#step - 5 (newtwork e data show korbe)
+# step - 5 (newtwork e data show korbe)
 
 ![Screenshot 2022-12-18 112131](https://user-images.githubusercontent.com/48369328/208282873-c5ffd48b-210a-447b-ad49-2963b83137e6.png)
 
-#step - 6 (console e data এ data show করার জন্যে onload event use করতে হবে  )
+# step - 6 (console e data এ data show করার জন্যে onload event use করতে হবে  )
 
 ```javascript
 
@@ -127,6 +127,17 @@ data টা xhr.response property এর মদ্যে তকবে
 data =xhr.response 
 console.log(data);
 এর ফলে data console এ show করবে 
+
+# step-7
+
+
+
+
+
+
+
+
+
 
 
 
