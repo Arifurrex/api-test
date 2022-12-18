@@ -48,9 +48,33 @@ getData();
 ![Screenshot 2022-12-17 115030](https://user-images.githubusercontent.com/48369328/208227578-1a1336ec-6568-4276-86d4-2d2aa5794eaa.png)
 
 ###  i will get every property and method and event from creating new object of XMLHttpRequest
- 1.event - onload(), onerror()
- 2.property- response, responseType ,
- 3.function -  open() ,send() ,setRequestHeader()
+ 1. event - onload(), onerror()
+ 2. property- response, responseType ,
+ 3. function -  open() ,send() ,setRequestHeader()
+
+#step - 1
+
+```javascript
+const getData = function(){
+   const xhr = new XMLHttpRequest(); 
+}
+getData();
+
+
+
+```
+#step - 2
+
+```javascript
+
+const getData = function(){
+   const xhr = new XMLHttpRequest();
+   xhr.open('GET','URL')  
+}
+getData();
+
+```
+xmlHttpRequest() object এর open() method call করব । open() method 2 টা argument receive করবে । 
 
 
 
