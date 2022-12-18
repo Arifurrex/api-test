@@ -276,3 +276,5 @@ const updateData = function(){
 
 updateData();
 ```
+
+![Screenshot 2022-12-18 200449](https://user-images.githubusercontent.com/48369328/208302832-aff3d07e-38d6-4e49-993d-4b963fac74f6.png)
