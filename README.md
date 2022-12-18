@@ -169,6 +169,8 @@ getData();
  i change here  https://jsonplaceholder.typicode.com/posts to https://jsonplaceholder.typicode.como/posts
  
  onerror event will find the error
+ 
+![Screenshot 2022-12-18 130106](https://user-images.githubusercontent.com/48369328/208285720-b3236e1d-b3ac-4315-94a8-c5de99a7ab90.png)
 
 
 
