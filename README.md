@@ -327,3 +327,4 @@ const updateSingleData = function(){
 
 updateSingleData();
 ```
+![Screenshot 2022-12-18 210257](https://user-images.githubusercontent.com/48369328/208305659-0349771f-a019-4b3d-ab61-c55b4b941446.png)
