@@ -147,7 +147,24 @@ getData();
 
 ![image](https://user-images.githubusercontent.com/48369328/208284027-38bf2aa4-4f18-4e62-a8e5-455adec55dd3.png)
 
+# step -10 onerror() 
 
+```javascript
+const getData = function(){
+   const xhr = new XMLHttpRequest();
+   xhr.open('GET','https://jsonplaceholder.typicode.como/posts');
+   xhr.onload = function(){
+      let data = xhr.response;
+      console.log(JSON.parse(data));
+   };
+   xhr.onerror = function(){
+      console.log('error is here');
+   }
+   xhr.send();  
+}
+getData();
+
+```
 
 
 
