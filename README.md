@@ -198,3 +198,31 @@ const getData = function(){
 getData();
 ```
 
+# কিভাবে post request করা হয় 
+```javascript
+const makeRequest = function(method,url,data1){
+   const xhr = new XMLHttpRequest();
+   xhr.open(method,url);
+   xhr.onload = function(){
+      let data = xhr.response;
+      console.log(JSON.parse(data));
+   };
+   xhr.onerror = function(){
+      console.log('error is here');
+   }
+   xhr.send(JSON.stringify(data1));  
+}
+
+
+const getData = function(){
+   makeRequest('GET','https://jsonplaceholder.typicode.com/posts');
+}
+const postData = function(){
+   makeRequest('POST','https://jsonplaceholder.typicode.com/posts',{
+          title : 'arifur',
+          body:'bar',
+          userId:1
+   });
+}
+postData();
+```
