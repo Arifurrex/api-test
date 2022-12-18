@@ -311,3 +311,30 @@ const updateSingleData = function(){
 updateSingleData();
 ```
 ![Screenshot 2022-12-18 210257](https://user-images.githubusercontent.com/48369328/208305659-0349771f-a019-4b3d-ab61-c55b4b941446.png)
+
+# DELETE 
+``` javascript
+
+const makeRequest = function(method,url,data1){
+   const xhr = new XMLHttpRequest();
+   xhr.open(method,url);
+   xhr.setRequestHeader('Content-type','application/json');
+   xhr.onload = function(){
+      let data = xhr.response;
+      console.log(JSON.parse(data));
+   };
+   xhr.onerror = function(){
+      console.log('error is here');
+   }
+   xhr.send(JSON.stringify(data1));  
+}
+
+// delete 
+// single data update
+const deleteData = function(){
+   makeRequest('DELETE','https://jsonplaceholder.typicode.com/posts/1');
+}
+
+deleteData();
+
+```
