@@ -76,5 +76,6 @@ getData();
 ```
 xmlHttpRequest() object এর open() method call করব । open() method 2 টা argument receive করবে । 
 
-
+(https://jsonplaceholder.typicode.com/guide/)
+https://jsonplaceholder.typicode.com/guide/
 
