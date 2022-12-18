@@ -300,23 +300,6 @@ const makeRequest = function(method,url,data1){
 const getData = function(){
    makeRequest('GET','https://jsonplaceholder.typicode.com/posts');
 }
-//post
-const postData = function(){
-   makeRequest('POST','https://jsonplaceholder.typicode.com/posts',{
-      title: 'foo',
-      body: 'bar',
-      userId: 1,
-   });
-}
-//update 
-const updateData = function(){
-   makeRequest('PUT','https://jsonplaceholder.typicode.com/posts/1',{
-      id:1,
-      title: 'foota',
-      body: 'barto',
-      userId: 1,
-   });
-}
 
 // single data update
 const updateSingleData = function(){
