@@ -47,3 +47,8 @@ getData();
 
 ![Screenshot 2022-12-17 115030](https://user-images.githubusercontent.com/48369328/208227578-1a1336ec-6568-4276-86d4-2d2aa5794eaa.png)
 
+
+### event - onload(), onerror()
+### property- response, responseType ,
+### function -  open() ,send() ,setRequestHeader()
+
