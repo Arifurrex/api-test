@@ -234,3 +234,6 @@ const postData = function(){
 }
 postData();
 ```
+
+
+![Screenshot 2022-12-18 194550](https://user-images.githubusercontent.com/48369328/208301801-5b915eff-9a86-4658-aa7d-61130cb99d00.png)
