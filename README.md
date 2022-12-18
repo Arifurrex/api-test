@@ -128,9 +128,9 @@ data =xhr.response
 console.log(data);
 এর ফলে data console এ show করবে 
 
-# step-7
+# step-7(json format to javascript object format)
 
-
+![Screenshot 2022-12-18 115612](https://user-images.githubusercontent.com/48369328/208283858-50d67b3a-3e7e-4b7d-8865-54a43dbd0132.png)
 
 
 
