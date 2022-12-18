@@ -63,7 +63,7 @@ getData();
 
 
 ```
-#step - 2
+#step - 2 open()
 
 ```javascript
 
@@ -75,6 +75,8 @@ getData();
 
 ```
 xmlHttpRequest() object এর open() method call করব । open() method 2 টা argument receive করবে । 
+
+#step - 3 set fake api in open() 
 
 [fake api link](https://jsonplaceholder.typicode.com/guide/)
 
@@ -88,3 +90,13 @@ getData();
 
 ```
 
+#step - 4 send()
+
+```javascript
+const getData = function(){
+   const xhr = new XMLHttpRequest();
+   xhr.open('GET','https://jsonplaceholder.typicode.com/posts/1');
+   xhr.send();  
+}
+getData();
+```
