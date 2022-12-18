@@ -147,7 +147,7 @@ getData();
 
 ![image](https://user-images.githubusercontent.com/48369328/208284027-38bf2aa4-4f18-4e62-a8e5-455adec55dd3.png)
 
-# step -10 onerror() 
+# step -10 onerror
 
 ```javascript
 const getData = function(){
@@ -165,7 +165,10 @@ const getData = function(){
 getData();
 
 ```
-
+ onerror event will find the error
+ i change here  https://jsonplaceholder.typicode.com/posts to https://jsonplaceholder.typicode.como/posts
+ 
+ onerror event will find the error
 
 
 
