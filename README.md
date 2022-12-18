@@ -173,6 +173,28 @@ getData();
 ![Screenshot 2022-12-18 130106](https://user-images.githubusercontent.com/48369328/208285720-b3236e1d-b3ac-4315-94a8-c5de99a7ab90.png)
 
 
+এভাবে request make করতে হয় XMLHttpRequest() এর মদ্যমে  
+
+# কিভাবে multiple request করা হয় 
+
+```javascript
+const makeRequest = function(method,url){
+   const xhr = new XMLHttpRequest();
+   xhr.open(method,url);
+   xhr.onload = function(){
+      let data = xhr.response;
+      console.log(JSON.parse(data));
+   };
+   xhr.onerror = function(){
+      console.log('error is here');
+   }
+   xhr.send();  
+}
 
 
+const getData = function(){
+   makeRequest('GET','https://jsonplaceholder.typicode.com/posts');
+}
+getData();
+```
 
