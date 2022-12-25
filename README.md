@@ -76,7 +76,7 @@ getData();
 ```
 xmlHttpRequest() object এর open() method call করব । open() method 2 টা argument receive করবে । 
 
-#step - 3 set fake api in open() 
+# step - 3 set fake api in open() 
 
 [fake api link](https://jsonplaceholder.typicode.com/guide/)
 
