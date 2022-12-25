@@ -90,7 +90,7 @@ getData();
 
 ```
 
-#step - 4 send()
+# step - 4 send()
 
 ```javascript
 const getData = function(){
