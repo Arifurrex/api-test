@@ -31,6 +31,11 @@ APIs, short for Application Programming Interfaces, সফ্টওয়্য�
 * 2 way to call  -than, async await
 
 
+
+
+
+
+
 * + fetch() is easy to use comapre to XMLHttpRequest
 * + fetch() returns a promise
 * - returned promise can only handle network error
