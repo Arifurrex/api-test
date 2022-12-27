@@ -21,7 +21,7 @@ server যখন তৈরি করা হয় তখন এই api গুলো
 APIs, short for Application Programming Interfaces, সফ্টওয়্যার থেকে সফ্টওয়্যার ইন্টারফেস। Meaning, তারা বিভিন্ন অ্যাপ্লিকেশনকে একে অপরের সাথে কথা বলার এবং তথ্য বা কার্যকারিতা বিনিময় করার অনুমতি দেয়।
 
 ## javascript থেকে 4 টা উপায়ে api call করতে পরি 
-1. [XMLHttpRequest](# XMLHttpRequest )
+1. [XMLHttpRequest](#XMLHttpRequest )
 2. fetch
 3. axios
 4. jquery
