@@ -26,14 +26,15 @@ APIs, short for Application Programming Interfaces, সফ্টওয়্য�
 3. axios
 4. jquery
 
+<br></br>
+<br></br>
+
 * fetch() has replace XMLHttpRequest
 * fetch() - global method for making HTTP request
 * 2 way to call  -than, async await
 
-
-
-
-
+<br></br>
+<br></br>
 
 
 * + fetch() is easy to use comapre to XMLHttpRequest
