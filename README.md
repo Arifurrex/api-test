@@ -70,7 +70,7 @@ getData();
  2. property- response, responseType ,
  3. function -  open() ,send() ,setRequestHeader()
 
-# step - 1
+## step - 1
 
 ```javascript
 const getData = function(){
@@ -81,7 +81,7 @@ getData();
 
 
 ```
-# step - 2 open()
+## step - 2 open()
 
 ```javascript
 
@@ -94,7 +94,7 @@ getData();
 ```
 xmlHttpRequest() object এর open() method call করব । open() method 2 টা argument receive করবে । 
 
-# step - 3 set fake api in open() 
+## step - 3 set fake api in open() 
 
 [fake api link](https://jsonplaceholder.typicode.com/guide/)
 
@@ -108,7 +108,7 @@ getData();
 
 ```
 
-# step - 4 send()
+## step - 4 send()
 
 ```javascript
 const getData = function(){
@@ -119,11 +119,11 @@ const getData = function(){
 getData();
 ```
 
-# step - 5 (newtwork e data show korbe)
+## step - 5 (newtwork e data show korbe)
 
 ![Screenshot 2022-12-18 112131](https://user-images.githubusercontent.com/48369328/208282873-c5ffd48b-210a-447b-ad49-2963b83137e6.png)
 
-# step - 6 (console e data এ data show করার জন্যে onload event use করতে হবে  )
+## step - 6 (console e data এ data show করার জন্যে onload event use করতে হবে  )
 
 ```javascript
 
@@ -146,7 +146,7 @@ data =xhr.response
 console.log(data);
 এর ফলে data console এ show করবে 
 
-# step-7(json format to javascript object format) JSON.parse()
+## step-7(json format to javascript object format) JSON.parse()
 ![Screenshot 2022-12-18 115612](https://user-images.githubusercontent.com/48369328/208283858-50d67b3a-3e7e-4b7d-8865-54a43dbd0132.png)
 
 ```javascript
@@ -165,7 +165,7 @@ getData();
 
 ![image](https://user-images.githubusercontent.com/48369328/208284027-38bf2aa4-4f18-4e62-a8e5-455adec55dd3.png)
 
-# step -10 onerror
+## step -10 onerror
 
 ```javascript
 const getData = function(){
@@ -193,7 +193,7 @@ getData();
 
 এভাবে request make করতে হয় XMLHttpRequest() এর মদ্যমে  
 
-# কিভাবে multiple request করা হয় 
+## কিভাবে multiple request করা হয় 
 
 ```javascript
 const makeRequest = function(method,url){
@@ -216,7 +216,7 @@ const getData = function(){
 getData();
 ```
 
-# কিভাবে post request করা হয় 
+## কিভাবে post request করা হয় 
 method হবে post 
 url হবে
 1. title body userid দিতে হবে 
@@ -256,7 +256,7 @@ postData();
 
 ![Screenshot 2022-12-18 194550](https://user-images.githubusercontent.com/48369328/208301801-5b915eff-9a86-4658-aa7d-61130cb99d00.png)
 
-# কিভাবে update request করা হয় 
+## কিভাবে update request করা হয় 
 ```javascript 
 const makeRequest = function(method,url,data1){
    const xhr = new XMLHttpRequest();
@@ -298,7 +298,7 @@ updateData();
 ![Screenshot 2022-12-18 200449](https://user-images.githubusercontent.com/48369328/208302832-aff3d07e-38d6-4e49-993d-4b963fac74f6.png)
 
 
-# update single date
+## update single date
 ```javascript
 const makeRequest = function(method,url,data1){
    const xhr = new XMLHttpRequest();
@@ -330,7 +330,7 @@ updateSingleData();
 ```
 ![Screenshot 2022-12-18 210257](https://user-images.githubusercontent.com/48369328/208305659-0349771f-a019-4b3d-ab61-c55b4b941446.png)
 
-# DELETE 
+## DELETE 
 ``` javascript
 
 const makeRequest = function(method,url,data1){
