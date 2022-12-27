@@ -357,3 +357,20 @@ deleteData();
 
 ```
 ![Screenshot 2022-12-18 213336](https://user-images.githubusercontent.com/48369328/208306761-8b93e56a-0060-4769-ab01-2cb901d028b0.png)
+
+
+
+#fetch
+
+* fetch() has replace XMLHttpRequest
+* fetch() - global method for making HTTP request
+* 2 way to call  -than, async await
+
+<br></br>
+<br></br>
+
+
+* + fetch() is easy to use comapre to XMLHttpRequest
+* + fetch() returns a promise
+* - returned promise can only handle network error
+* - does not support all the older browser
