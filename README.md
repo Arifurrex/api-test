@@ -22,7 +22,7 @@ APIs, short for Application Programming Interfaces, সফ্টওয়্য�
 
 ## javascript থেকে 4 টা উপায়ে api call করতে পরি 
 1. [XMLHttpRequest](#XMLHttpRequest )
-2. fetch
+2. [fetch](#fetch)
 3. axios
 4. jquery
 
