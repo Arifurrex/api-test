@@ -360,7 +360,7 @@ deleteData();
 
 
 
-#fetch
+# fetch
 
 * fetch() has replace XMLHttpRequest
 * fetch() - global method for making HTTP request
