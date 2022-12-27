@@ -358,7 +358,8 @@ deleteData();
 ```
 ![Screenshot 2022-12-18 213336](https://user-images.githubusercontent.com/48369328/208306761-8b93e56a-0060-4769-ab01-2cb901d028b0.png)
 
-
+<br></br>
+<br></br>
 
 # fetch
 
